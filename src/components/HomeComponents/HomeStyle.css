@@ -1,0 +1,53 @@
+.background-container{
+    height: 90vh;    
+    text-align: center;
+    background-color: #071952;
+    color: white;
+}
+.intro-img{
+    position: absolute;
+    bottom: 0;
+    margin-left: 30%;
+    width: 20%;
+    z-index: 2;
+}
+.intro-header{
+    padding-top: 5%;
+}
+/* Service */
+.curve-container{
+margin-top: -30px;
+}
+.service-main-container{
+    text-align: center;
+}
+.content-1{
+    padding: 1% 15%;
+}
+.get-started-btn {
+    margin: 2%;
+    border: none;
+    padding: 1% 2%;
+    border-radius: 10px;
+    color: white;
+    background-color: #071952;
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+    z-index: 1; /* Ensure the button is above the pseudo-element */
+    transition: transform 0.3s ease-in-out;
+}
+.get-started-btn:hover {
+    transform: scale(1.06);
+    background: linear-gradient(65deg, #071932, #071952);
+}
+.short-cut-container{
+    margin: 5% 10%;
+}
+.img-before{
+    padding-right: 5%;
+    border-right: 1px solid rgb(190, 190, 190);
+}
+.content-2{
+    padding: 1% 20%;
+}
