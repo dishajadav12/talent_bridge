@@ -42,12 +42,189 @@ margin-top: -30px;
     background: linear-gradient(65deg, #071932, #071952);
 }
 .short-cut-container{
-    margin: 5% 10%;
+    margin: 2% 10%;
 }
 .img-before{
     padding-right: 5%;
     border-right: 1px solid rgb(190, 190, 190);
 }
 .content-2{
-    padding: 1% 20%;
+    padding: 5% 20%;
+}
+.company-carousal{
+    margin: 0 5%;
+    border-radius: 40%;
+    overflow: hidden;
+    z-index: 2;
+}
+.carousal-slide-1{
+    overflow: hidden;
+    background-color:white;
+    white-space: nowrap;
+
+}
+.carousal-1 {
+    display: inline-block;
+    animation: carousal-scroll 25s linear infinite;
+}
+
+@keyframes carousal-scroll {
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(-100%);
+    }
+}
+@keyframes carousal-scroll-right {
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(-100%);
+    }
+}
+.carousal-2{
+    display: inline-block;
+    animation: carousal-scroll-right 20s linear infinite;
+}
+
+/* feature */
+.features{
+    margin: 10% 15%;
+
+}
+.card{
+    -webkit-box-shadow: -4px 6px 10px -3px rgba(138,138,138,0.7);
+    -moz-box-shadow: -4px 6px 10px -3px rgba(138,138,138,0.7);
+     box-shadow: -4px 6px 10px -3px rgba(138,138,138,0.7);
+  }
+.card:hover{
+    background-color:rgb(237, 235, 235) ;
+}
+.card-img-top{
+    margin-top: 2%;
+    width: 100%;
+    height: 120px;
+}
+.f-content{
+    height: 280px;
+}
+.feature-img{
+    width: 100%;
+}
+.feature-content{
+    padding: 5% 10%;
+}
+.feature-btn {
+    color: white;
+    background-color: #071952;
+    border: none;
+    margin: 2% 3% 0 0;
+    padding: 1.5% 2.5%;
+    border-radius: 5px;
+    box-shadow: 0 0 2px rgba(7, 25, 82, 0.8); /* Adding a box shadow with a transparent color */
+    transition: box-shadow 0.3s ease; /* Adding a transition effect to the box shadow */
+  }
+  
+  .feature-btn:hover {
+    box-shadow: 0 0 10px rgba(7, 25, 82, 0.8); /* Changing the box shadow on hover */
+  }
+  
+.feature-btn-1{
+    color: #071952;
+    border: 1px solid #071952;
+    margin: 1% 3% 0 0;
+    padding: 1% 2%;
+    border-radius: 5px;
+}
+.feature-btn-1:hover{
+    color: #071952;
+    background-color: rgb(231, 231, 231);
+    border: 1px solid #071952;
+    margin: 1% 3% 0 0;
+    padding: 1% 2%;
+    border-radius: 5px;
+}
+.feature-sub-dec{
+    margin: 5% 0;
+    color: gray;
+}
+.features h4{
+    color: #071952;
+}
+.f-svg{
+position: absolute;
+margin: -18%;
+z-index: -1;
+}
+.f-svg-1{
+    position: absolute;
+margin: -23%;
+z-index: -1;
+}
+.intro-curve {
+    content: "";
+    right: 0;
+    margin-top: 5%;
+    height: 140vh;
+    display: block;
+    position: absolute;
+    width: 100%;
+    border-radius: 45% 1%;
+    opacity: 0.2;
+    background-color: rgb(198, 198, 198);
+    z-index: -1;
+    /* animation: introcurveAnimation 4s ease-out; */
+  }
+  .intro-curve-2 {
+    content: "";
+    right: 0;
+    margin-top: 3%;
+    height: 150vh;
+    display: block;
+    position: absolute;
+    width: 100%;
+    border-radius: 45% 1%;
+    opacity: 0.2;
+    background-color: rgb(190, 190, 190);
+    z-index: -3;
+    /* animation: introcurveAnimation 4s ease-out;  */
+  }
+  @keyframes introcurveAnimation {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 0.2;
+    }
+  }
+  .card-title{
+    text-align: center;
+    font-weight: 700;
+    color: #071952;
+    font-size: 18px;
+    margin-top: 5%;
+  }
+  .card-text{
+    padding: 5% 2% 0 2%;
+    height: 120px;
+    font-size: 14px;
+    font-weight: 500;
+    color: rgb(143, 143, 143);
+  }
+.icon-cards{
+    margin: 5%;
+}
+.more-info-btn{
+    height: 50px;
+    border: none;
+    background-color: transparent;
+    margin: 5% 20%;
+    color: #24315d;
+    font-weight: 600;
+}
+.more-info-btn:hover{
+    font-size: 17px;
+    color: #071932;
 }

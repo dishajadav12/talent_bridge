@@ -2,6 +2,13 @@ import React from 'react'
 import './HomeStyle.css'
 import IMAGE from './before_image.jpg'
 import IMAGE2 from './after_image.jpg'
+import CAROUSAL1 from './c (1).png'
+import CAROUSAL11 from './c (2).png'
+import CAROUSAL2 from './c (3).png'
+import CAROUSAL22 from './c (4).png'
+import CAROUSAL3 from './c (5).png'
+import CAROUSAL33 from './c (6).png'
+
 
 
 const services = () => {
@@ -18,7 +25,45 @@ const services = () => {
           <h4 className='my-2'> <b> Sign up now and experience the future of recruitment.</b></h4> 
       </h4>
       <button className=' get-started-btn'> Get Started</button>
-      <div className="short-cut-container d-flex justify-content-around">
+      <h4 className="content-2">
+          Over <b>30 million</b>  professionals from diverse industries are fast-tracking their journey to success through our recruitment website, joining <b>16,500 companies</b>  already benefiting from our platform.
+          </h4>
+          <div className="company-carousal">
+            <div className="carousal-slide-1">
+            <div className="carousal-1">
+              <img src={CAROUSAL1} alt="company logo animation" />
+              <img src={CAROUSAL11} alt="company logo animation" />
+
+            </div>
+            <div className="carousal-1">
+              <img src={CAROUSAL1} alt="company logo animation" />
+              <img src={CAROUSAL11} alt="company logo animation" />
+
+            </div>
+            </div>
+            <div className="carousal-slide-1">
+            <div className="carousal-2">
+              <img src={CAROUSAL2} alt="company logo animation" />
+              <img src={CAROUSAL22} alt="company logo animation" />
+            </div>
+            <div className="carousal-2">
+              <img src={CAROUSAL2} alt="company logo animation" />
+              <img src={CAROUSAL22} alt="company logo animation" />
+            </div>
+            </div>         
+            <div className="carousal-slide-1"> 
+            <div className="carousal-1">
+              <img src={CAROUSAL3} alt="company logo animation" />
+              <img src={CAROUSAL33} alt="company logo animation" />
+              </div>
+              <div className="carousal-1">
+              <img src={CAROUSAL3} alt="company logo animation" />
+              <img src={CAROUSAL33} alt="company logo animation" />
+              </div>
+            </div>
+          </div>
+
+          {/* <div className="short-cut-container d-flex justify-content-around">
           <div className="img-before">
             <h2>The usual path</h2>
             <img src={IMAGE} alt="" />
@@ -28,10 +73,7 @@ const services = () => {
             <img src={IMAGE2} alt="" />
 
           </div>
-      </div>
-      <h4 className="content-2">
-          Over <b>30 million</b>  professionals from diverse industries are fast-tracking their journey to success through our recruitment website, joining <b>16,500 companies</b>  already benefiting from our platform.
-          </h4>
+      </div> */}
     </div>
       </div>
     </div>
