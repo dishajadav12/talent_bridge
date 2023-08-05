@@ -1,7 +1,5 @@
 import React from 'react'
 import './HomeStyle.css'
-import IMAGE from './before_image.jpg'
-import IMAGE2 from './after_image.jpg'
 import CAROUSAL1 from './c (1).png'
 import CAROUSAL11 from './c (2).png'
 import CAROUSAL2 from './c (3).png'

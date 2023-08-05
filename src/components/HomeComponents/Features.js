@@ -86,6 +86,7 @@ const features = () => {
 </div>  <div className="card" style={{width: '18rem'}}>
   <div className="card-title">UI-UX Developers</div>
   <img className="card-img-top" src={IMAGE4} alt="Card image cap"/>
+  
   <div className="card-body">
     <p className="card-text">Elevate your product's aesthetics and user experience with creative UX/UI designers sourced via TalentBridge.</p>
   </div>

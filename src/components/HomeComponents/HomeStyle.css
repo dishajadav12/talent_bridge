@@ -228,3 +228,35 @@ z-index: -1;
     font-size: 17px;
     color: #071932;
 }
+.user-carousal{
+    margin: 5% 10%;
+    height: 400px;
+    background-color: #24315d;
+}
+
+.user-desc{
+    float: right;
+    width: 30%;
+}
+.footer-container{
+    background-color: #cccccc;
+    color: black;
+    padding: 5% 2%;
+}
+.footer-links{
+    text-decoration: none;
+    color: gray;
+    padding:0% 1% ;
+}
+.footer-curve{
+    margin-top: -20%;
+}
+.footer-curve1{
+    margin-top: -15%;
+}
+.copyright-container{
+text-align: center;
+color: gray;
+
+margin-top: 3%;
+}
