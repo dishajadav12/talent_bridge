@@ -11,7 +11,11 @@ const Categories = () => {
         <div className="icon-cards d-flex justify-content-around my-3 ">
           <div className="card" style={{ width: "18rem" }}>
             <div className="card-title">Software Developers</div>
-            <img className="card-img-top" src={IMAGE1} alt="Card image cap" />
+            <img
+              className="card-img-top"
+              src={IMAGE1}
+              alt="Software Developers"
+            />
             <div className="card-body">
               <p className="card-text">
                 Harness the power of top-notch software engineers from diverse
@@ -23,7 +27,7 @@ const Categories = () => {
           </div>
           <div className="card" style={{ width: "18rem" }}>
             <div className="card-title">Product Managers</div>
-            <img className="card-img-top" src={IMAGE2} alt="Card image cap" />
+            <img className="card-img-top" src={IMAGE2} alt="Product Managers" />
             <div className="card-body">
               <p className="card-text">
                 {" "}
@@ -36,7 +40,7 @@ const Categories = () => {
           </div>{" "}
           <div className="card" style={{ width: "18rem" }}>
             <div className="card-title">Data Scientists</div>
-            <img className="card-img-top" src={IMAGE3} alt="Card image cap" />
+            <img className="card-img-top" src={IMAGE3} alt="Data Scientists" />
             <div className="card-body">
               <p className="card-text">
                 Leverage data-driven decision-making by recruiting exceptional
@@ -47,7 +51,7 @@ const Categories = () => {
           </div>{" "}
           <div className="card" style={{ width: "18rem" }}>
             <div className="card-title">UI-UX Developers</div>
-            <img className="card-img-top" src={IMAGE4} alt="Card image cap" />
+            <img className="card-img-top" src={IMAGE4} alt="UI-UX Developers" />
 
             <div className="card-body">
               <p className="card-text">

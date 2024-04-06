@@ -7,7 +7,7 @@ const Navbar = () => {
     <div className="nav-container">
       <nav className="navbar navbar-expand-lg d-flex">
         <div className="container-fluid">
-          <Link className="navbar-brand" to="/">
+          <Link className="navbar-brand" to="/" style={{ fontWeight: "600" }}>
             TalentBridge
           </Link>
           <button
